@@ -127,16 +127,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FloydWarshall.cpp" />
+    <ClCompile Include="floydWarshall.cpp" />
     <ClCompile Include="JohnsonAlgorithm.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Data_FloydWarshall.txt" />
-    <Text Include="Data_Johnson.txt" />
+    <Text Include="Data.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FloydWarshall.h" />
+    <ClInclude Include="floydWarshall.h" />
     <ClInclude Include="JohnsonAlgorithm.h" />
     <ClInclude Include="Standard_Library.h" />
   </ItemGroup>

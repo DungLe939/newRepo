@@ -18,7 +18,7 @@
     <ClCompile Include="JohnsonAlgorithm.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FloydWarshall.cpp">
+    <ClCompile Include="floydWarshall.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
@@ -26,10 +26,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="Data_Johnson.txt">
-      <Filter>Source Files</Filter>
-    </Text>
-    <Text Include="Data_FloydWarshall.txt">
+    <Text Include="Data.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
@@ -37,7 +34,7 @@
     <ClInclude Include="JohnsonAlgorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FloydWarshall.h">
+    <ClInclude Include="floydWarshall.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Standard_Library.h">
