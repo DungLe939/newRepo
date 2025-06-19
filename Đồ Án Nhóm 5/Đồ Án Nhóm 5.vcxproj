@@ -127,7 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FloydWarshall.cpp" />
+    <ClCompile Include="JohnsonAlgorithm.cpp" />
     <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Data_FloydWarshall.txt" />
+    <Text Include="Data_Johnson.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FloydWarshall.h" />
+    <ClInclude Include="JohnsonAlgorithm.h" />
+    <ClInclude Include="Standard_Library.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
