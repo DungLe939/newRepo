@@ -8,9 +8,10 @@ void menu(JohnsonAlgorithm& johnson, floydWarshall& floyd) {
 		system("cls");
 		cout << " -------------------- Menu ------------------ " << endl;
 		cout << "1. Enter data for Johnson algorithm" << endl;
-		cout << "2. Enter data for Floyd–Warshall algorithm" << endl;
+		
+		cout << "2. Enter data for Floydï¿½Warshall algorithm" << endl;
 		cout << "3. Run Johnson algorithm" << endl;
-		cout << "4. Run Floyd–Warshall algorithm" << endl;
+		cout << "4. Run Floydï¿½Warshall algorithm" << endl;
 		cout << "5. Exit" << endl;
 		cout << " -------------------------------------------- " << endl;
 		int choice;
